@@ -24,7 +24,7 @@ pip install selenium
 #
 Installation done! Now to set it up  
 
-1. Go into the code and choose a web browser that is installed on your system. Comment out the rest.
+1. Go into bot.py and choose a web browser that is installed on your system. Comment out the rest.
 
 ![image](https://user-images.githubusercontent.com/125508084/219166698-9f06ef70-d1b8-4058-abde-bdf9dfc94730.png)
 
