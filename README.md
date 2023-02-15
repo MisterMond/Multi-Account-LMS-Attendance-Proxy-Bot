@@ -8,7 +8,7 @@ In one go, mark attendance on LMS from multiple accounts.
 
 ## Installation & Setup
 1. Clone this repository.
-2. Download the latest stable release of ChromeDriver for your operating system from https://chromedriver.chromium.org/home.
+2. Download the latest stable release of ChromeDriver from https://chromedriver.chromium.org/home for your operating system.
 3. Unzip ChromeDriver into the local folder.  
 The local directory structure should look like this:  
 ```
