@@ -7,6 +7,7 @@ In one go, mark attendance on LMS from multiple accounts.
 
 
 ## Installation & Setup
+Prerequisite - python must be installed on your system.
 1. Clone this repository.
 2. Download the latest stable release of ChromeDriver from https://chromedriver.chromium.org/home for your operating system.
 3. Unzip ChromeDriver into the local folder.  
@@ -35,7 +36,7 @@ Installation done! Now to set it up
 
 ![image](https://user-images.githubusercontent.com/125508084/219168647-00c549ff-d198-4f24-9f8e-e4d572936aee.png)
 
-- Names can be anything that will help you identify the course later on, but the url should be the link to "Lecture Attendance" page.
+- Names can be anything that will help you identify the courses later on, but ***the urls must be links to "Lecture Attendance" pages***.
 
 ![image](https://user-images.githubusercontent.com/125508084/219171009-623cca2b-a639-490d-bda5-5e385860a820.png)
 
