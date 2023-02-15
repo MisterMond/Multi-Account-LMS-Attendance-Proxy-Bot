@@ -15,9 +15,9 @@ The local directory structure should look like this:
 ```
 Multi-Account-Attendance-Proxy-Bot
 |   bot.py
+│   chromedriver
 │   courses.json
 |   credentials.json
-│   chromedriver
 │   README.md
 ```
 4. Run this command in the terminal:
@@ -25,7 +25,7 @@ Multi-Account-Attendance-Proxy-Bot
 pip install selenium
 ```
 #
-Installation done! Now to set it up  
+Installation done! Now to set it up.
 
 1. Go into bot.py and choose a web browser that is installed on your system. Comment out the rest.
 
