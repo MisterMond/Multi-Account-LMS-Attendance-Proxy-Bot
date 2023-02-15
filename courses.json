@@ -1,0 +1,8 @@
+{
+    "courses":
+    [
+        {"name":"Quantum Computing", "url":"https://ramanujan-lms.thapar.edu/moodle/mod/attendance/view.php?id=106119"},
+        {"name":"Theory of Computation", "url":"https://ramanujan-lms.thapar.edu/moodle/mod/attendance/view.php?id=107575"}
+    ]
+}
+
