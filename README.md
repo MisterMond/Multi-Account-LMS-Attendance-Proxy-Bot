@@ -7,7 +7,7 @@ In one go, mark attendance on LMS from multiple accounts
 ## Installation & Setup
 1. Clone this repository.
 2. Download the latest stable release of ChromeDriver for your operating system from https://chromedriver.chromium.org/home.
-3. Unzip ChromeDriver into local folder.  
+3. Unzip ChromeDriver into the local folder.  
 The directory structure should look like this:  
 ```
 Multi-Account-Attendance-Proxy-Bot
@@ -27,4 +27,20 @@ Installation done! Now to set it up
 1. Go into the code and choose a web browser that is installed on your system. Comment out the rest.
 
 ![image](https://user-images.githubusercontent.com/125508084/219166698-9f06ef70-d1b8-4058-abde-bdf9dfc94730.png)
+
+
+2. Add your courses to courses.json in the following format:
+
+![image](https://user-images.githubusercontent.com/125508084/219168647-00c549ff-d198-4f24-9f8e-e4d572936aee.png)
+
+- Names can be anything that will help you identify the course later on, but the url should be the link to "Lecture Attendance" page.
+
+![image](https://user-images.githubusercontent.com/125508084/219171009-623cca2b-a639-490d-bda5-5e385860a820.png)
+
+3. Add yours and your friends' LMS credentials to credentials.json in the following format:
+
+![image](https://user-images.githubusercontent.com/125508084/219173097-595b555d-6f55-4e9c-ab59-f7339c95c59d.png)
+
+Setup done!
+
 
