@@ -15,7 +15,7 @@ python3 bot.py
 
 ![image](https://user-images.githubusercontent.com/125508084/219305818-ef5b1fbe-3203-4f5b-8661-39fcc4983b10.png)
 
-
+![Screenshot](https://user-images.githubusercontent.com/125508084/219320548-49d7996e-c52c-4905-9f03-0d407a6aa1e1.png)
 
 ![image](https://user-images.githubusercontent.com/125508084/219306087-fd864bf1-ec5f-49fa-ab1a-fad1ccd6f68c.png)
 
