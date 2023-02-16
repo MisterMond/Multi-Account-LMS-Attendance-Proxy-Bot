@@ -40,7 +40,7 @@ Installation done! Now to set it up.
 
 ![image](https://user-images.githubusercontent.com/125508084/219171009-623cca2b-a639-490d-bda5-5e385860a820.png)
 
-3. Add your LMS credentialsz as well as credentials of your friends to [credentials.json](https://github.com/MisterMond/Multi-Account-Attendance-Proxy-Bot/blob/main/credentials.json) in the following format:
+3. Add your LMS credentials, as well as credentials of your friends to [credentials.json](https://github.com/MisterMond/Multi-Account-Attendance-Proxy-Bot/blob/main/credentials.json) in the following format:
 
 ![image](https://user-images.githubusercontent.com/125508084/219173097-595b555d-6f55-4e9c-ab59-f7339c95c59d.png)
 
