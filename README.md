@@ -4,6 +4,21 @@
 In one go, mark attendance on LMS from multiple accounts.
 
 ## Usage
+This program auto-logins multiple accounts on LMS simultaneously using the credentials you provide in [credentials.json](https://github.com/MisterMond/Multi-Account-Attendance-Proxy-Bot/blob/main/credentials.json) and marks their attendance in the course you select using the attendance password you enter.
+
+Run bot.py as you would any python program.
+
+eg.
+```
+python3 bot.py
+```
+
+![image](https://user-images.githubusercontent.com/125508084/219305818-ef5b1fbe-3203-4f5b-8661-39fcc4983b10.png)
+
+
+
+![image](https://user-images.githubusercontent.com/125508084/219306087-fd864bf1-ec5f-49fa-ab1a-fad1ccd6f68c.png)
+
 
 
 ## Installation & Setup
