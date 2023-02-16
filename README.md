@@ -46,4 +46,6 @@ Installation done! Now to set it up.
 
 Setup done!
 
-
+## Note
+I made this program hastily and have only tested it on my native platform as a result.   
+If you run into any issues, drop it here or send me an email at mistermond@pm.me
