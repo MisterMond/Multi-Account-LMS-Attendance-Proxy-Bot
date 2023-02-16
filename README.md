@@ -13,7 +13,7 @@ Prerequisite - python must be installed on your system.
 3. Unzip ChromeDriver into the local folder.  
 The local directory structure should look like this:  
 ```
-Multi-Account-Attendance-Proxy-Bot
+Multi-Account-LMS-Attendance-Proxy-Bot
 |   bot.py
 │   chromedriver
 │   courses.json
