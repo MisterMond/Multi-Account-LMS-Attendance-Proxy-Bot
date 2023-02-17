@@ -3,6 +3,14 @@
 
 In one go, mark attendance on LMS from multiple accounts.
 
+
+## Changelog
+- 17/2/23  
+Previously, there was a big flaw that the bot would work only after the attendance password had been entered. If the pages were slow to load, the bot would've missed the 15 second window and failed to enter the correct password only to start the process all over again.  
+Now, the bot auto-logins to LMS and asks for attendance password parallelly. Enter the password after you see that atttendance pages on all windows have loaded.
+
+
+
 ## Usage
 This program auto-logins multiple accounts on LMS simultaneously using the credentials you provide in [credentials.json](https://github.com/MisterMond/Multi-Account-Attendance-Proxy-Bot/blob/main/credentials.json) and marks their attendance in the course you select using the attendance password you enter.
 
