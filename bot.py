@@ -1,9 +1,11 @@
-from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium import webdriver
 import threading
-import json
+import os.path
 import time
-import os
+import json
+
+event=threading.Event()
 
 def get_url():
     global url
@@ -24,15 +26,7 @@ def get_url():
         url=course_url[selection-1]
 
 
-
 def prepare_and_fire_bot():
-    if first_run==1:
-        attendance_password=int(input('Enter attendance password: '))
-    else:
-        attendance_password=int(input('Reenter attendance password if failed (-1 to exit): '))
-    if attendance_password<0:
-        quit()
-
     with open(os.path.join(path, 'credentials.json')) as json_file:
         data=json.load(json_file)
         
@@ -40,15 +34,11 @@ def prepare_and_fire_bot():
             username=account['username']
             password=account['password']
             
-            
-            t=threading.Thread(target=bot, args=(username, password, attendance_password))
-
+            t=threading.Thread(target=bot, args=(username, password))
             t.start()
-            #t.join()
 
 
-
-def bot(username, password, attendance_password):
+def bot(username, password):
     ######################################################################################
     #CHOOSE ONLY ONE WEB BROWSER THAT IS INSTALLED ON YOUR SYSTEM AND COMMENT OUT THE REST
     #driver=webdriver.Chrome()
@@ -64,23 +54,28 @@ def bot(username, password, attendance_password):
     driver.find_element(By.NAME, 'password').send_keys(password)
     driver.find_element(By.ID, 'loginbtn').click()
 
+
     #Autofill attendance password
+    event.wait()
     driver.find_element(By.NAME, 'qrpass').send_keys(attendance_password)
     driver.find_elements(By.CLASS_NAME, 'btn-secondary')[1].click()
     
     time.sleep(5)
     driver.close()
-
-
+    
 
 if __name__=="__main__":
-    global path, first_run
-
+    #Get path of local folder
+    global path
     path=os.path.dirname(os.path.realpath(__file__))    
-    first_run=1
 
+    #Get url of course
     get_url()
-    
-    while(True):
-        prepare_and_fire_bot()        
-        first_run=0
+
+    #Ready LMS credentials and auto-login    
+    prepare_and_fire_bot()        
+
+    #Enter attendance password to file
+    global attendance_password
+    attendance_password=input('Enter attendance password after all attendance pages load: ')
+    event.set()
