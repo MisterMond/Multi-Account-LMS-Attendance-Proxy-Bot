@@ -75,7 +75,7 @@ if __name__=="__main__":
     #Ready LMS credentials and auto-login    
     prepare_and_fire_bot()        
 
-    #Enter attendance password to file
+    #Enter attendance password
     global attendance_password
     attendance_password=input('Enter attendance password after all attendance pages load: ')
     event.set()
