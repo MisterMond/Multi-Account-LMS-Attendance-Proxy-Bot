@@ -6,9 +6,8 @@ In one go, mark attendance on LMS from multiple accounts.
 
 ## Changelog
 - 17/2/23  
-Previously, there was a big flaw that the bot would work only after the attendance password had been entered. If the pages were slow to load, the bot would've missed the 15 second window and failed to enter the correct password only to start the process all over again.  
+Previously, there was a huge flaw that the bot would work only after the attendance password had been entered. If the pages were slow to load, the bot would've missed the 15 second window and failed to enter the correct password only to start the process all over again.  
 Now, the bot auto-logins to LMS and asks for attendance password parallelly. Enter the password after you see that atttendance pages on all windows have loaded.
-
 
 
 ## Usage
@@ -21,11 +20,10 @@ eg.
 python3 bot.py
 ```
 
-![image](https://user-images.githubusercontent.com/125508084/219305818-ef5b1fbe-3203-4f5b-8661-39fcc4983b10.png)
+![image](https://user-images.githubusercontent.com/125508084/219632802-9cca3b57-94d4-4ae9-bc0a-c53b09483986.png)
 
 ![Screenshot](https://user-images.githubusercontent.com/125508084/219320548-49d7996e-c52c-4905-9f03-0d407a6aa1e1.png)
 
-![image](https://user-images.githubusercontent.com/125508084/219306087-fd864bf1-ec5f-49fa-ab1a-fad1ccd6f68c.png)
 
 
 
