@@ -22,9 +22,8 @@ python3 bot.py
 
 ![image](https://user-images.githubusercontent.com/125508084/219632802-9cca3b57-94d4-4ae9-bc0a-c53b09483986.png)
 
-![Screenshot](https://user-images.githubusercontent.com/125508084/219320548-49d7996e-c52c-4905-9f03-0d407a6aa1e1.png)
 
-
+![Screenshot](https://user-images.githubusercontent.com/125508084/219702808-a59eb451-bd5a-4c87-ae52-2c59bbee540c.png)
 
 
 ## Installation & Setup
