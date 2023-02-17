@@ -6,8 +6,9 @@ In one go, mark attendance on LMS from multiple accounts.
 
 ## Changelog
 - 17/2/23  
-Previously, there was a huge flaw that the bot would work only after the attendance password had been entered. If the pages were slow to load, the bot would've missed the 15 second window and failed to enter the correct password only to start the process all over again.  
-Now, the bot auto-logins to LMS and asks for attendance password parallelly. Enter the password after you see that atttendance pages on all windows have loaded and attendance will be marked instantly. Simply replace the old [bot.py](https://github.com/MisterMond/Multi-Account-LMS-Attendance-Proxy-Bot/blob/main/bot.py) with the new one.
+Previously, there was a huge flaw that the bot would start working only after the attendance password was input. If the pages were slow to load, the bot would've missed the 15 second window and erroneously entered the old password, only to start the process all over again.  
+Now, the bot auto-logins to LMS and asks for attendance password input parallelly.   
+Enter the password after you see that the atttendance pages on all windows have loaded for attendance to be marked instantly. Simply replace the old [bot.py](https://github.com/MisterMond/Multi-Account-LMS-Attendance-Proxy-Bot/blob/main/bot.py) with the new one.
 
 
 ## Usage
