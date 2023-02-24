@@ -69,4 +69,4 @@ Setup done!
 
 ## Note
 I made this program hastily and have only tested it on my native platform as a result.   
-If you run into any issues, drop it here or send me an email at mistermond@pm.me and I'll get back to you.
+If you run into any issues, drop it here or send me an email at mistermond@pm.me from your ***personal mail id*** and I'll get back to you. (I can't reply back to thapar.edu domain)
